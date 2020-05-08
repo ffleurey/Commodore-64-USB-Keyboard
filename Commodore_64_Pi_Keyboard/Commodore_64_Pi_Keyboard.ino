@@ -51,7 +51,7 @@ int lastKeyState[80];
 long lastDebounceTime[80];
 int debounceDelay = 50;
 int RowPinMap[8] = {9, 3, 4, 5, 6, 7, 8, 2};
-int ColPinMap[10] = {10, 16, 14, 21, 18, 19, 20, 15, 1, 0};
+int ColPinMap[10] = {10, 11, 12, 21, 18, 19, 20, 13, 1, 0};
 
 // Keyboard matrix from http://sta.c64.org/cbm64kbdlay.html
 uint16_t keyMap[80] = {
